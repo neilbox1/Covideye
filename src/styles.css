@@ -1,0 +1,37 @@
+html {
+    font-family: system-ui, sans-serif;
+    font-size: 1.25rem;
+  }
+  
+  body {
+    
+      display: block;
+    margin: 0;
+    padding: 0 1.5rem;
+    background-color: #171616;
+  }
+  
+  svg {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #222426;
+  }
+
+  .red-text{
+    color: #e42f50;
+  }
+  
+  .center {
+    margin: auto;
+    width: 70%;
+    padding: 0px;
+  }
+
+  .right {
+    position: absolute;
+    right: 0px;
+    width: 30px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+
