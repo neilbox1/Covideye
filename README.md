@@ -16,3 +16,4 @@ HTML/CSS/JS
 Bootstrap
 React
 [React Simple Maps](https://github.com/zcreativelabs/react-simple-maps)
+[react-bootstrap-table2](https://react-bootstrap-table.github.io/react-bootstrap-table2/)

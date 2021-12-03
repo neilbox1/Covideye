@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "CovidEye",
+  "name": "COVID-19 visual data display",
   "icons": [
     {
       "src": "favicon.ico",

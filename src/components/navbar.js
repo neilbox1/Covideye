@@ -1,19 +1,12 @@
-import ReactTooltip from "react-tooltip";
-import './App.css';
-import "./styles.css";
 import React, { useState } from "react";
 import Button from 'react-bootstrap/Button';
-import { ArrowRight } from 'react-bootstrap-icons';
+import '../navbar.css';
+import '../styles.css';
 
-import MapChart from "./MapChart";
-
-
-function App() {
-  const [content, setContent] = useState("");
-  return (
-    <div class="container">
-
-<div class="wrapper">
+//returns the navbar onto the page
+export default function Navbar() {
+    return (
+        <div class="wrapper">
   
     <nav id="sidebar">
     
@@ -61,21 +54,5 @@ function App() {
     <div class="overlay"></div>
 </div>
 
-
- <div class="content center">
-      
-      <h1 class="red-text col-mb-6"> Covid Map </h1>
-
-      <MapChart setTooltipContent={setContent} />
-      <ReactTooltip>{content}</ReactTooltip>
-      <Button variant="primary">Primary</Button>{' '}
-    </div>
-    </div>
-   
-    
-   
-    
-  );
+    );
 }
-
-export default App;

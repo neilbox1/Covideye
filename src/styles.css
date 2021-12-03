@@ -4,11 +4,12 @@ html {
   }
   
   body {
-    
+  
       display: block;
     margin: 0;
     padding: 0 1.5rem;
     background-color: #171616;
+  
   }
   
   svg {
@@ -22,8 +23,13 @@ html {
   }
   
   .center {
-    margin: auto;
-    width: 70%;
+    margin: 15px 50px 75px 150px;
+    width: 90%;
+    padding: 0px;
+  }
+  .center2 {
+    margin: 25px 50px 75px 150px;
+    width: 90%;
     padding: 0px;
   }
 
@@ -35,3 +41,6 @@ html {
     padding: 10px;
   }
 
+.dark {
+  color: black;
+}
